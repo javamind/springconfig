@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
  */
 public class ArticleService2 {
     private AuthorService authorService;
+    private String name;
 
     public ArticleService2(AuthorService authorService) {
         this.authorService = authorService;
@@ -19,5 +20,11 @@ public class ArticleService2 {
         return authorService;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }

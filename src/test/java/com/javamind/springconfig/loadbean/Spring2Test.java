@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * A la mode Spring 1
+ * Avec de la Java config
  * @author EHRET_G
  */
 @ContextConfiguration(classes = Example1Config.class)
